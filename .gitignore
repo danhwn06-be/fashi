@@ -1,0 +1,11 @@
+# Folder contains heavy dependencies (not necessary to push to Git)
+front/node_modules/
+back/node_modules/
+
+# Files containing environment variables and passwords (MUST BE IGNORED)
+.env
+back/.env
+
+# System files and log files
+.DS_Store
+.vscode
